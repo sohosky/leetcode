@@ -23,3 +23,32 @@ int* TwoSum(int* nums, int target)
 	}
 	return ret;
 }
+
+//--------------------------------------------------
+/*class Solution {
+public:
+	vector<int> twoSum(vector<int>& nums, int target) {
+		int i = 0;
+		int j = 0;
+		vector<int> b(2, -1);
+
+		//printf("nums size:%d",nums.size());
+		for (i = 0; i < nums.size(); i++)
+		{
+			for (j = 0; j < nums.size(); j++)
+			{
+				if (i != j)
+				{
+					if ((nums[i] + nums[j]) == target)
+					{
+						b[0] = i;
+						b[1] = j;
+						return b;
+					}
+				}
+			}
+		}
+		return b;
+	}
+};*/
+//------------------------------------------------------------------------

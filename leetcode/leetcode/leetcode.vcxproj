@@ -152,6 +152,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="leetcode.cpp" />
+    <ClCompile Include="Source_addtwonumbers.cpp" />
     <ClCompile Include="Source_twosum.cpp" />
   </ItemGroup>
   <ItemGroup>

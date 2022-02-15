@@ -21,6 +21,9 @@
     <ClCompile Include="Source_twosum.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="Source_addtwonumbers.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="leetcode.h">
