@@ -18,5 +18,13 @@
     <ClCompile Include="leetcode.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="Source_twosum.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="leetcode.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
