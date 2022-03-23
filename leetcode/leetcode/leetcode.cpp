@@ -33,7 +33,12 @@ int main(char *argv[], int argc)
 		wprintf_s(L"====Add Two Number Sum====\n");
 		ptr_ = AddTwoNumbersSum(num1_, num2_);
 	}
-	wprintf_s(L"====Two Sum %d====\n", &ptr_);
+		wprintf_s(L"====Two Sum %d====\n", &ptr_);
+		break;
+	case '3':
+	{
+		wprintf_s(L"====Roman to Integer====\n");
+	}
 		break;
 	}
 
